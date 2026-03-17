@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font 1 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- font 2 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!-- font 3 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
+    <!-- font 4 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <!-- font 5 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <!-- icons-connect -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+<link rel="icon" type="img/jpg" href="images/batman.jpg">
+
+</head>
+<body>
+ <header class="header">
+
+    <a href="#home"><img src="images/logo.png" alt="logo" class="logoimg"></a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+          <i class='bx bx-circle' id="menu-icon"></i>
+          <i class='bx bx-x-circle' id="close-icon"></i>
+        </label>
+    <nav class="navbar">
+        <a href="#me-about" style="--i:0">About</a>
+        <a href="#expmts" style="--i:1">Experiments</a>
+        <a href="#favts" style="--i:2">Favs</a>
+        <a href="#connectwithme" style="--i:3">Connect</a>
+    </nav>
+ </header>
+
+    <main>
+    <div class="primarytext" id="home">
+      <p><span class="bgspan">Namaste!</span> I hope you know my name, Surya. I'm badly intrested in creating webpages and designing, aligning and I always wonder by seeing other's projects which are so creative, so I thought I can also build like that. I  try to understand and dive deep in them with help of some platforms, AI and YouTube.<span class="testred">And this page was built for testing my skill.</span></p>
+    </div>
+   
+
+    <section>
+        <div class="about-wrapper">
+    <div class="aboutme" id="me-about">
+        <p>ABOUT ME</p>
+    </div>
+    </div>
+    <div class="profile-wrapper">
+        
+            <img src="images/profilepic.jpg" class="profile-img" alt="Admin" title="surya">
+ 
+        <div class="txtholder">
+            <p class="profile-txt">
+                I'm a BSc.CS student who recently started learning web development and creating/building simple web pages. I don't have any shocking projects, world-changing apps, or heroic coding feats just a lot of enthusiasm and slightly questionable life choices.
+            </p>
+        </div>
+    </div>
+    </section>
+  
+    <section>
+
+           <div id="expmts">
+            <div class="muskills">
+                EXPERIMENTS
+                <img src="images/spin.jpg" class="spin-img" alt="">
+            </div>
+             </div>
+   
+             <div class="clicktxt">
+                Hover the Cards !
+             </div>
+
+             <div class="hovertxt">
+                Click the Cards !
+             </div>
+
+            <div class="card-wrapper"> 
+        <div class="flip-container">
+
+        <div class="hovercard"></div>
+
+            <div class="cards">
+                <div class="front-face">
+                  <img src="images/html-logo.jpg" class="htmlogo" alt="html">
+                  <p>HTML</p>
+                </div>
+
+                <div class="rear-face">
+                <p>I've been using MS Word for a long time, so HTML feels very familiar to me. Because of that, I was able to learn and understand semantic HTML in less than two days. I still get confused with complex tables, but I can easily create simple, semantic structures.</p>
+                </div>
+            </div>
+        </div>
+
+            <div class="flip-container">
+            <div class="cards">
+                <div class="front-face">
+                <img src="images/css-logo.jpg" class="csslogo" alt="css">
+                <p>CSS</p>
+                </div>
+
+                <div class="rear-face">
+                <p>CSS was a new concept for me when it came to markup languages, but I already have experience in creating designs like cards and posters. I'm currently learning the basics of CSS to become comfortable with it, & then I can master it.</p>
+                </div>
+            </div>
+        </div>
+
+         <div class="flip-container">
+            <div class="cards">
+                <div class="front-face">
+                <img src="images/jslogo.jpg" class="jslogo" alt="js">
+                <p>JS</p>
+                </div>
+
+                <div class="rear-face">
+                <p>Since I chose markup languages as my starting point, I'm not yet familiar with any programming languages, so I haven't learned JavaScript yet. I need to strengthen my HTML and CSS first.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="favourites" id="favts">
+        <p>FAVOURITES</p>
+    </div>
+
+        <section>
+            <div class="grid-wrapper">
+                    <div class="grid-imgs">
+                        <img src="images/batman.jpg" alt="batman" class="imgsgd pic1">
+                    </div>
+
+                    <div class="grid-imgs">
+                        <img src="images/interstellar.jpg" alt="interstellar" class="imgsgd pic3">
+                    </div>
+
+                    <div class="grid-imgs">
+                        <img src="images/porsche.jpg" alt="porsche911" class="imgsgd pic2">
+                    </div>
+
+                     <div class="grid-imgs">
+                        <img src="images/shr.jpg" alt="redemption" class="imgsgd pic4">
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <section>
+        <div class="c-wrapper" id="connectwithme">
+            <div class="connect">
+                Connect with Me ?
+            </div>
+
+            <div class="c-icons">
+                <a href="https://t.me/xblade_07" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="mailto:surya@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        </section>
+     </main>
+
+        <footer>
+            <div class="final-pri-txt">
+                © 2026 ~ Created and Designed by Me, with using pure HTML and CSS.
+            </div>
+
+        </footer>
+</body>
+</html>
